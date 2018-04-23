@@ -21,8 +21,8 @@ public class Punkt2d {
     }
 
     public Punkt2d() {
-    this.x=0;
-    this.y=0;
+    this.x = r.nextInt(20) + -10;
+    this.y = r.nextInt(20) + -10;
     }
     Random r=new Random();
    

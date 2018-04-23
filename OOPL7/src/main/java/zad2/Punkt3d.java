@@ -15,7 +15,9 @@ public class Punkt3d extends Punkt2d {
     int z;
 
     public Punkt3d() {
-    this.z=0;
+       super();
+     
+        this.z= r.nextInt(20) + -10;
     }
     
     public Punkt3d(int z, int x, int y) {
